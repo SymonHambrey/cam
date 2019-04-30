@@ -51,12 +51,12 @@ function initMap(){
 	document.addEventListener("deviceready",onDeviceReady,false);
 
 	// turn map on when lib clicked
-	$(".lib").click(()=>{
+	$(".lib").click(function(){
 	  window.localStorage.setItem("map", "on");
 	});
 
 	// turn map off when camera clicked
-	$(".cam").click(()=>{
+	$(".cam").click(function(){
 	  window.localStorage.setItem("map", "off");
 	});
 
