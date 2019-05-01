@@ -1,6 +1,4 @@
 $(document).ready(function(){
-	var test=window.localStorage.getItem("map");
-	console.log("test="+test);
 	if(window.localStorage.getItem("map")=="on"){
 		$("#map").show();
 	}
