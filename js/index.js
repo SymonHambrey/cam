@@ -60,7 +60,7 @@ function initMap(){
 
 	// device APIs are ready to use.
 	function onDeviceReady() {
-	pictureSource=navigator.camera.PictureSourceType;
+	//pictureSource=navigator.camera.PictureSourceType;
 	destinationType=navigator.camera.DestinationType;
 	}
 
